@@ -26,6 +26,17 @@ public class operadores {
 
         String resultado = (a==b) ? "Verdadeiro" : "Falso"; //comparador ternário
         System.out.println(resultado);
+
+        int n1 = 5;
+        int n2 = 7;
+
+        boolean verdadeiroFalso = n1 == n2;
+
+        verdadeiroFalso = n1 != n2;
+        System.out.println(verdadeiroFalso);
+
+        verdadeiroFalso = n1 > n2;
+        System.out.println(verdadeiroFalso);
     }
 }
 
