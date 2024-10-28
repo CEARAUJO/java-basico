@@ -12,10 +12,10 @@ public class tiposDeVariaveis {
 
         boolean trueOrFalse = true;
 
-        char wordChar = 'P';
-        String wordString = "Palabras";
+        char wordChar = 'P'; //char recebe apenas um caracter
+        String wordString = "Palabras"; //pode receber um conjunto de palavras
 
-        final double NUMBER_CONST_DOUBLE = 3.14;
+        final double NUMBER_CONST_DOUBLE = 3.14; //constante que não pode ser alterada
 
         System.out.println(numberByte);
         System.out.println(numberShort);
